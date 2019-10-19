@@ -1,5 +1,6 @@
 # HOMECREDIT
-php class pro komunikaci s API - pro odeslání žádosti
+
+__php class pro komunikaci s API - pro odeslání žádosti__
 
 Dokumentace: <https://csoneclicknew.docs.apiary.io>
 
