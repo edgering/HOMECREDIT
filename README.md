@@ -24,9 +24,9 @@ Default nastavení je pro test mód.
 
 ## Získání odkazu do Home Credit API
 
-`(array) $HC_DATA` obsahuje asociativní pole parametrů nutných pro odeslání.
+`(array)$HC_DATA` obsahuje asociativní pole parametrů nutných pro odeslání.
 
-Result je uložený v `(array) $_HOMECREDIT->RESULT` odkud se dá číst erroring v případě neúspěchu.
+Result je uložený v `(array)$_HOMECREDIT->RESULT` odkud se dá číst erroring v případě neúspěchu.
     
 Vzor: <https://github.com/homecreditcz/php-script/blob/master/json.php>
 
@@ -43,7 +43,7 @@ Vzor: <https://github.com/homecreditcz/php-script/blob/master/json.php>
 
 Všechna CURL volání a jejich response se ukládají do stacku:
 
-    (array) $_HOMECREDIT->debug
+    (array)$_HOMECREDIT->debug
     
     
     
