@@ -1,4 +1,4 @@
-# HOMECREDIT
+# HOME CREDIT - PHP CLASS pro API
 
 __php class pro komunikaci s API - pro odeslání žádosti__
 
