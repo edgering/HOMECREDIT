@@ -4,12 +4,17 @@ class HomeCredit
   var $URL_TEST = "https://apicz-test.homecredit.net/verdun-train/";
   var $URL_PROD = "https://api.homecredit.cz/";
     
-  var $test  = FALSE;   // if test mode
+  var $test  = FALSE;   // are we in test mode?
   
-  var $debug = array(); // storing CURL events
+  var $debug = array(); // storing all CURL events
    
   var $TOKEN = array(); 
-  var $RESULT = FALSE;
+  
+  var $RESULT = FALSE; 
+  
+  var $user = FALSE,    // auth
+      $pass = FALSE,
+      $shop = FALSE;
 
   /**
    *  INIT
@@ -48,9 +53,8 @@ class HomeCredit
    *  @return associative (array)
    */
    
-
   function getLogin()
-  {
+  {    
     return $login = array("username" => $this->user, 
                           "password" => $this->pass);
   }
